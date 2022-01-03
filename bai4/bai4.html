@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bài tập 4 JS</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./bai4.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="container__content">
+        <h1>Bài 4: Tính Diện Tích , Chu Vi Hình Vuông</h1>
+        <!-- test -->
+        <div class="form__group field">
+          <input
+            type="input"
+            class="form__field"
+            placeholder="Chiều dài:"
+            name="name"
+            id="chieuDaiTag"
+            required
+          />
+          <label for="name" class="form__label">Chiều dài:</label>
+        </div>
+        <div class="form__group field">
+          <input
+            type="input"
+            class="form__field"
+            placeholder="Chiểu rộng:"
+            name="name"
+            id="chieuRongTag"
+            required
+          />
+          <label for="name" class="form__label">Chiểu rộng:</label>
+        </div>
+        <!-- test -->
+        <br />
+        <button class="button-52" role="button" onclick="Tinh()">Tính</button>
+        <div class="tongtien">
+          <p>Chu vi là:</p>
+          <input
+            disabled="disabled"
+            type="text"
+            id="chuViTag"
+            class="tongtien__input"
+            placeholder=""
+          />
+        </div>
+        <div class="tongtien">
+          <p>Diện tích là:</p>
+          <input
+            disabled="disabled"
+            type="text"
+            id="dienTichTag"
+            class="tongtien__input"
+            placeholder=""
+          />
+        </div>
+      </div>
+      <div class="img">
+        <div class="img--content">
+          <img
+            src="https://i.pinimg.com/564x/3b/7e/5d/3b7e5d9722f50c381cebe1a77404b558.jpg"
+            width="400px"
+            height="400px"
+          />
+        </div>
+        <ul class="c-rainbow">
+          <li class="c-rainbow__layer c-rainbow__layer--white">KHÔI VŨ</li>
+          <li class="c-rainbow__layer c-rainbow__layer--orange">KHÔI VŨ</li>
+          <li class="c-rainbow__layer c-rainbow__layer--red">KHÔI VŨ</li>
+          <li class="c-rainbow__layer c-rainbow__layer--violet">KHÔI VŨ</li>
+          <li class="c-rainbow__layer c-rainbow__layer--blue">KHÔI VŨ</li>
+          <li class="c-rainbow__layer c-rainbow__layer--green">KHÔI VŨ</li>
+          <li class="c-rainbow__layer c-rainbow__layer--yellow">KHÔI VŨ</li>
+        </ul>
+      </div>
+    </div>
+    <!-- script -->
+    <script src="./bai4.js"></script>
+  </body>
+</html>

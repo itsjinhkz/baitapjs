@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bài tập 2 JS</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./bai2.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="container__content">
+        <h1>Bài 2: Tính Tổng Giá Trị Trung Bình</h1>
+        <!-- test -->
+        <div class="form__group field">
+          <input
+            type="input"
+            class="form__field"
+            placeholder="Số thứ 1:"
+            name="name"
+            id="number1Tag"
+            required
+          />
+          <label for="name" class="form__label">Số thứ 1:</label>
+        </div>
+        <div class="form__group field">
+          <input
+            type="input"
+            class="form__field"
+            placeholder="Số thứ 2:"
+            name="name"
+            id="number2Tag"
+            required
+          />
+          <label for="name" class="form__label">Số thứ 2:</label>
+        </div>
+        <div class="form__group field">
+          <input
+            type="input"
+            class="form__field"
+            placeholder="Số thứ 3:"
+            name="name"
+            id="number3Tag"
+            required
+          />
+          <label for="name" class="form__label">Số thứ 3:</label>
+        </div>
+        <div class="form__group field">
+          <input
+            type="input"
+            class="form__field"
+            placeholder="Số thứ 4:"
+            name="name"
+            id="number4Tag"
+            required
+          />
+          <label for="name" class="form__label">Số thứ 4:</label>
+        </div>
+        <div class="form__group field">
+          <input
+            type="input"
+            class="form__field"
+            placeholder="Số thứ 5:"
+            name="name"
+            id="number5Tag"
+            required
+          />
+          <label for="name" class="form__label">Số thứ 5:</label>
+        </div>
+        <!-- test -->
+        <br />
+        <button class="button-52" role="button" onclick="TinhTong()">
+          Tính Tổng
+        </button>
+        <div class="kq">
+          <p>Kết Quả:</p>
+          <input
+            disabled="disabled"
+            type="text"
+            id="ketquaTag"
+            class="tongtien__input"
+            placeholder=""
+          />
+        </div>
+      </div>
+      <div class="img">
+        <div class="img--content">
+          <img
+            src="https://i.pinimg.com/564x/3b/7e/5d/3b7e5d9722f50c381cebe1a77404b558.jpg"
+            width="400px"
+            height="400px"
+          />
+        </div>
+        <ul class="c-rainbow">
+          <li class="c-rainbow__layer c-rainbow__layer--white">KHÔI VŨ</li>
+          <li class="c-rainbow__layer c-rainbow__layer--orange">KHÔI VŨ</li>
+          <li class="c-rainbow__layer c-rainbow__layer--red">KHÔI VŨ</li>
+          <li class="c-rainbow__layer c-rainbow__layer--violet">KHÔI VŨ</li>
+          <li class="c-rainbow__layer c-rainbow__layer--blue">KHÔI VŨ</li>
+          <li class="c-rainbow__layer c-rainbow__layer--green">KHÔI VŨ</li>
+          <li class="c-rainbow__layer c-rainbow__layer--yellow">KHÔI VŨ</li>
+        </ul>
+      </div>
+    </div>
+    <!-- script -->
+    <script src="./bai2.js"></script>
+  </body>
+</html>
